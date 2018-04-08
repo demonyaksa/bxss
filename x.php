@@ -20,7 +20,7 @@ $mail->IsSMTP(); // 使用SMTP方式发送
 $mail->Host = "smtp.163.com"; // 您的邮箱域名
 $mail->SMTPAuth = true; // 启用SMTP验证功能
 $mail->Username = "xsssend@163.com"; // 邮局用户名(请填写完整的email地址)
-$mail->Password = "mailpwd"; // 邮局密码
+$mail->Password = "mailpwd"; // 邮箱密码，163邮箱需填写授权码
 $mail->Port=25;
 $mail->From = "xsssend@163.com"; //邮件发送者email地址
 $mail->FromName = "Bemo-XSS success!";
